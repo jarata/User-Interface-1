@@ -74,15 +74,16 @@ nav {
 header {
     border: 1px solid yellow;
 }
-.test {
-    display: block;
+/*section {*/
+/*    display: inline-block;*/
+/*}*/
+.top-half {
+    display: inline-block;
+    /*border: 1px solid red;*/
 }
-.article {
-    box-sizing: border-box;
-    /*text-align: start;*/
-    border: 1px solid green;
-}
-.article-top {
+.half {
     display: inline-block;
     margin: 20px 0px;
+    width: 438px;
+    /*border: 1px solid yellow;*/
 }
