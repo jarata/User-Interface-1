@@ -70,12 +70,37 @@ body {
 }
 nav {
     border: 1px solid red;
+    padding: 5px;
+    overflow: auto;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+li a {
+    border: 1px solid green;
+    padding-right: 50px;
+}
+.logo {
+    float: right;
+}
+header {
+    /*border: 1px solid green;*/
 }
 .header {
     display: inline-block;
-    border: 1px solid blue;
-    width: 436px;
     text-align: center;
+    width: 400px;
+    border: 1px solid blue;
+}
+h1 {
+    font-size: 78px;
+}
+button {
+    border: 1px solid black;
+    background: white;
+    padding: 5px 40px;
+    font-size: 18px;
 }
 .half {
     display: inline-block;
