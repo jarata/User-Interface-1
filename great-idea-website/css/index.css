@@ -71,19 +71,23 @@ body {
 nav {
     border: 1px solid red;
 }
-header {
-    border: 1px solid yellow;
-}
-/*section {*/
-/*    display: inline-block;*/
-/*}*/
-.top-half {
+.header {
     display: inline-block;
-    /*border: 1px solid red;*/
+    border: 1px solid blue;
+    width: 436px;
+    text-align: center;
 }
 .half {
     display: inline-block;
-    margin: 20px 0px;
+    margin: 40px 0px;
     width: 438px;
-    /*border: 1px solid yellow;*/
+}
+.third {
+    display: inline-block;
+    margin: 40px 0px;
+    width: 290px;
+}
+#contact {
+    width: 200px;
+    margin: 40px 0px;
 }
