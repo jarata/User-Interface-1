@@ -91,3 +91,8 @@ nav {
     width: 200px;
     margin: 40px 0px;
 }
+span {
+    text-align: center;
+    display: block;
+    margin: 60px 0px;
+}
