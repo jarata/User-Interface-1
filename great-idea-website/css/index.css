@@ -69,17 +69,19 @@ body {
     margin: auto;
 }
 nav {
-    border: 1px solid red;
+    margin: 20px 0px;
     padding: 5px;
     overflow: auto;
 }
 li {
     list-style-type: none;
     display: inline-block;
+    margin-top: 10px;
 }
 li a {
-    border: 1px solid green;
     padding-right: 50px;
+    text-decoration: none;
+    color: #B8B8B8;
 }
 .logo {
     float: right;
